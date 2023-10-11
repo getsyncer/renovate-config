@@ -5,5 +5,8 @@
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
-  ]
+  ],
+  "postUpdateOptions": ["gomodTidy"],
+  "automergeType": "pr",
+  "platformAutomerge": true
 }
